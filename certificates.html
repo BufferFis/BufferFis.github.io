@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Certificates | My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <ul class="navbar">
+    <li><a class="navbar-item" href="index.html">Home</a></li>
+    <li><a class="navbar-item" href="projects.html">Projects</a></li>
+    <li><a class="navbar-item" href="about.html">About</a></li>
+    <li><a class="navbar-item active-page" href="certificates.html">Certificates</a></li>
+    <li><a class="navbar-item" href="contact.html">Contact</a></li>
+  </ul>
+
+  <div class="container">
+    <header>
+      <h1>My Certificates</h1>
+      <p class="tagline">Click on a certificate to view it</p>
+    </header>
+
+    <section>
+      <div class="project-grid">
+
+        <div class="project-card">
+            <h3>Heliverse AI Engineer</h3>
+            <p>Issued by Heliverse</p>
+            <a class="btn" href="certificates/HELI.pdf" target="_blank">View Certificate</a>
+          </div>
+
+        <div class="project-card">
+          <h3>Stanford ML Certificate</h3>
+          <p>Completed Stanford's "Advanced Learning Algorithms" course.</p>
+          <a class="btn" href="certificates/ALG.pdf" target="_blank">View Certificate</a>
+        </div>
+
+        <div class="project-card">
+            <h3>Completed Stanford's "Supervised Maching Learning: Regression & Classification" course</h3>
+            <p>Issued by Heliverse x GDG</p>
+            <a class="btn" href="certificates/SML.pdf" target="_blank">View Certificate</a>
+          </div>
+        
+      </div>
+    </section>
+  </div>
+
+  <button class="mode-toggle" id="modeToggle">🌙</button>
+  <script src="script.js"></script>
+</body>
+</html>
