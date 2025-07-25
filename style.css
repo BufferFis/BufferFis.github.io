@@ -2,6 +2,8 @@
     --bg-color: #121212; 
     --text-color: #ff5555; 
     --accent-color: #ff4444; 
+    --secondary-color: #b12d0895; /* New cyan/blue accent color */
+    --secondary-glow: 0 0 15px rgba(0, 204, 255, 0.8); /* New glow effect */
     --nav-bg: #1e1e1e;
     --nav-hover: #333333;
     --hover-glow: 0 0 15px rgba(255, 85, 85, 0.8);
@@ -132,7 +134,7 @@ section p {
     text-shadow: 0 0 8px rgba(100, 180, 255, 0.7);
 }
 
-/* Project cards styling */
+
 .project-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -183,7 +185,12 @@ section p {
     margin-bottom: 5px;
 }
 
-/* Contact form styling */
+
+.project-card .tech {
+    background-color: var(--secondary-color);
+}
+
+
 .contact-form {
     max-width: 600px;
     margin: 0 auto;
@@ -449,7 +456,7 @@ body.light-mode .project-card {
 
 .timeline-date {
     font-weight: bold;
-    color: var(--text-color);
+    color: var(--secondary-color);
 }
 
 .timeline-content {
