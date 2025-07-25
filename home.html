@@ -1,0 +1,91 @@
+/bufferfis/code/web/Home.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <ul class="navbar">
+        <li><a class="navbar-item active-page" href="project.html">Home</a></li>
+        <li><a class="navbar-item" href="projects.html">Projects</a></li>
+        <li><a class="navbar-item" href="about.html">About</a></li>
+        <li><a class="navbar-item" href="contact.html">Contact</a></li>
+    </ul>
+    
+    <div class="container">
+        <header>
+            <h1>My Portfolio</h1>
+            <p class="tagline">Machine Learning Researcher | NLP Specialist | Game Enthusiast</p>
+        </header>
+        
+        <section>
+            <h2>About Me</h2>
+            <div class="about-me">
+                <p>
+                    Hallo Every_nyan :3<br><br>
+                    It's Samar here, a passionate Machine Learning Researcher, I specialize in the field of Natural Language Processing and working with Large Language Models. I am usually into research projects and love reading research papers which are based on making heavy models run in low resource scenarios.<br><br>
+                    All this aside I love playing warthunder or ultrakill in my free time, and I also know somewhat of blender. <br>
+                </p>
+                <img src="Untitled.jpg" alt="Your Photo">
+            </div>
+        </section>
+        
+        <section>
+            <h2>Featured Projects</h2>
+            <div class="project-grid">
+                <div class="project-card" style="--order: 1;">
+                    <h3>Convolutional Neural Network</h3>
+                    <p>Created a CNN from scratch using only NumPy, implementing forward and backward propagation algorithms with various optimization techniques.</p>
+                    <div class="tech-stack">
+                        <span class="tech">NumPy</span>
+                        <span class="tech">Machine Learning</span>
+                        <span class="tech">Python</span>
+                    </div>
+                </div>
+                
+                <div class="project-card" style="--order: 2;">
+                    <h3>Bigram Model</h3>
+                    <p>Implemented a bigram language model from scratch using NumPy, with applications in text generation and probability estimation.</p>
+                    <div class="tech-stack">
+                        <span class="tech">NLP</span>
+                        <span class="tech">NumPy</span>
+                        <span class="tech">Python</span>
+                    </div>
+                </div>
+                
+                <div class="project-card" style="--order: 3;">
+                    <h3>Back Propagation</h3>
+                    <p>Built a neural network with custom implementation of back propagation algorithm for gradient computation.</p>
+                    <div class="tech-stack">
+                        <span class="tech">Deep Learning</span>
+                        <span class="tech">Algorithm</span>
+                        <span class="tech">Python</span>
+                    </div>
+                </div>
+            </div>
+            <p class="text-center">
+                <a href="projects.html" class="btn">View All Projects</a>
+            </p>
+        </section>
+        
+        <section>
+            <h2>Contact me</h2>
+            <p>Want to collaborate on a project or just say hi?</p>
+            <p>FIX MY COMPUTER NETWORKS CODE AT: <a href="https://github.com/bufferfis" class="hub">MY GITHUB RIGHT HERE</a></p>
+            <p class="text-center">
+                <a href="contact.html" class="btn">Get in Touch</a>
+            </p>
+        </section>
+    </div>
+    
+    <button class="mode-toggle" id="modeToggle">🌙</button>
+    
+    <script src="script.js"></script>
+</body>
+</html>

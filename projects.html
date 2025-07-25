@@ -1,0 +1,143 @@
+web/projects.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects | My Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <ul class="navbar">
+        <li><a class="navbar-item" href="project.html">Home</a></li>
+        <li><a class="navbar-item active-page" href="projects.html">Projects</a></li>
+        <li><a class="navbar-item" href="about.html">About</a></li>
+        <li><a class="navbar-item" href="contact.html">Contact</a></li>
+    </ul>
+    
+    <div class="container">
+        <header>
+            <h1>My Projects</h1>
+            <p class="tagline">A showcase of my work in machine learning and natural language processing</p>
+        </header>
+        
+        <section>
+            <h2>Research Publications</h2>
+            <div class="research-papers">
+                <div class="paper-card">
+                    <h3>"Efficient Compression Techniques for LLMs in Resource-Constrained Environments"</h3>
+                    <p class="paper-meta">Published in: <em>Journal of Machine Learning Research</em>, 2023</p>
+                    <p>This paper explores novel approaches to compress large language models while maintaining performance integrity, enabling deployment on devices with limited computational resources.</p>
+                    <div class="paper-links">
+                        <a href="#" class="hub">Read Paper</a>
+                        <a href="#" class="hub">View Code</a>
+                        <a href="#" class="hub">Citation</a>
+                    </div>
+                    <div class="tech-stack">
+                        <span class="tech">Model Compression</span>
+                        <span class="tech">Knowledge Distillation</span>
+                        <span class="tech">LLM</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section>
+            <h2>Machine Learning Projects</h2>
+            <div class="project-grid">
+                <div class="project-card" style="--order: 1;">
+                    <h3>Convolutional Neural Network</h3>
+                    <p>Created a CNN from scratch using only NumPy, implementing forward and backward propagation algorithms with various optimization techniques. Achieved 94% accuracy on MNIST dataset.</p>
+                    <div class="tech-stack">
+                        <span class="tech">NumPy</span>
+                        <span class="tech">Machine Learning</span>
+                        <span class="tech">Python</span>
+                    </div>
+                </div>
+                
+                <div class="project-card" style="--order: 2;">
+                    <h3>Bigram Model</h3>
+                    <p>Implemented a bigram language model from scratch using NumPy, with applications in text generation and probability estimation. The model was trained on a corpus of literary texts.</p>
+                    <div class="tech-stack">
+                        <span class="tech">NLP</span>
+                        <span class="tech">NumPy</span>
+                        <span class="tech">Python</span>
+                    </div>
+                </div>
+                
+                <div class="project-card" style="--order: 3;">
+                    <h3>Back Propagation</h3>
+                    <p>Built a neural network with custom implementation of back propagation algorithm for gradient computation. The implementation provides insights into the mathematical foundations of neural networks.</p>
+                    <div class="tech-stack">
+                        <span class="tech">Deep Learning</span>
+                        <span class="tech">Algorithm</span>
+                        <span class="tech">Python</span>
+                    </div>
+                </div>
+                
+                <div class="project-card" style="--order: 4;">
+                    <h3>Low-Resource LLM Deployment</h3>
+                    <p>Researched and implemented techniques for deploying large language models on resource-constrained devices through quantization and knowledge distillation.</p>
+                    <div class="tech-stack">
+                        <span class="tech">LLM</span>
+                        <span class="tech">Optimization</span>
+                        <span class="tech">PyTorch</span>
+                    </div>
+                </div>
+                
+                <div class="project-card" style="--order: 5;">
+                    <h3>Transformer Architecture Study</h3>
+                    <p>Analyzed the transformer architecture in depth, implementing attention mechanisms and positional encoding from first principles.</p>
+                    <div class="tech-stack">
+                        <span class="tech">Transformers</span>
+                        <span class="tech">Attention</span>
+                        <span class="tech">TensorFlow</span>
+                    </div>
+                </div>
+                
+                <div class="project-card" style="--order: 6;">
+                    <h3>NLP for Resource-Limited Languages</h3>
+                    <p>Developing NLP tools and models for languages with limited digital resources, focusing on transfer learning approaches.</p>
+                    <div class="tech-stack">
+                        <span class="tech">NLP</span>
+                        <span class="tech">Transfer Learning</span>
+                        <span class="tech">Hugging Face</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Professional Projects</h2>
+            <div class="project-grid">
+                <div class="project-card" style="--order: 1;">
+                    <h3>Real-Time Crime Detection System</h3>
+                    <p>Currently working with Heliverse on developing a real-time video analytics system for crime detection. The system uses computer vision and machine learning to identify suspicious activities while maintaining privacy standards.</p>
+                    <div class="tech-stack">
+                        <span class="tech">Computer Vision</span>
+                        <span class="tech">PyTorch</span>
+                        <span class="tech">Real-time Processing</span>
+                    </div>
+                </div>
+                
+                <div class="project-card" style="--order: 2;">
+                    <h3>Computational Linguistics Research</h3>
+                    <p>Collaborated with the University of Pretoria on developing NLP tools for low-resource African languages, focusing on transfer learning from multilingual models.</p>
+                    <div class="tech-stack">
+                        <span class="tech">Computational Linguistics</span>
+                        <span class="tech">Transfer Learning</span>
+                        <span class="tech">BERT</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    
+    <button class="mode-toggle" id="modeToggle">🌙</button>
+    
+    <script src="script.js"></script>
+</body>
+</html>
